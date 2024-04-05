@@ -7,9 +7,7 @@
 Boneless Coconuts  
 
 # Team Member
-Prathith [GitHub Link](https://github.com/prethith)
-
-
+Prathith [GitHub Link](https://github.com/prethith)\
 Amulya [Github Link](https://github.com/AmulyaVinceChemparathy)
 
 ## Idea
@@ -26,11 +24,11 @@ Event scheduling dashboard for clubs in CET
 
    
 ## Libraries used
-ReactJS - 18.2.0
-npm - 10.5.1
-Tailwind CSS - 3.4.3
-Vite - 5.2.0
-daisyUI - 4.10.1
+ReactJS - 18.2.0\
+npm - 10.5.1\
+Tailwind CSS - 3.4.3\
+Vite - 5.2.0\
+daisyUI - 4.10.1\
 
 
 ## How to configure
