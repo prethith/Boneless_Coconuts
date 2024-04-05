@@ -7,11 +7,11 @@
 Boneless Coconuts  
 
 ## Team Members
-Prathith [GitHub Link](https://github.com/prethith)\
-Amulya [Github Link](https://github.com/AmulyaVinceChemparathy)
+- Prathith [GitHub Link](https://github.com/prethith)
+- Amulya [Github Link](https://github.com/AmulyaVinceChemparathy)
 
 ## Idea
-Event scheduling dashboard for clubs in CET
+**Event scheduling dashboard** for clubs in CET. The app will serve as a common **dashboard-cum-interface** where clubs in CET can view the _timings_ and _dates_ of various events in college, even those conducted by other clubs, and schedule accordingly. This will greatly ease the burden of organizing and scheduling such events as well as increase the attendance to clubs by helping them schedule appropriately. 
 
 ## Features 
 1. View Calendar
@@ -24,15 +24,15 @@ Event scheduling dashboard for clubs in CET
 
    
 ## Libraries used
-ReactJS - 18.2.0\
-npm - 10.5.1\
-Tailwind CSS - 3.4.3\
-Vite - 5.2.0\
-daisyUI - 4.10.1
+- ReactJS - 18.2.0
+- npm - 10.5.1
+- Tailwind CSS - 3.4.3
+- Vite - 5.2.0
+- daisyUI - 4.10.1
 
 
 ## How to configure
-Clone the repository and install the dependencies (`npm` and the like). Run ``` npm insall ``` to install any additional dependancies.
+Clone the repository and install the dependencies (`npm`, `daisyUI`, `Tailwind CSS`, and `Vite` especially.). Run ``` npm insall ``` to install any additional dependancies.
 
 ## How to Run
 In the directory to which the repository was cloned, run the ``` npm run dev ``` command. When Vite runs, click the link to the local server to view the app. 
