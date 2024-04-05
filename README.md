@@ -20,7 +20,7 @@ Event scheduling dashboard for clubs in CET
 4. Click on day in calendar to add details of events - and on submission, an alert prompt is displayed with the event details. 
 
 ## Link to product walkthrough
-[link to video](Link Here)
+[Link Here](https://drive.google.com/file/d/15-f-PnDB37dcHzYesNwL1fAkqgUapUl1/view?usp=sharing)
 
    
 ## Libraries used
