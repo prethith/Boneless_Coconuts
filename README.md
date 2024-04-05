@@ -4,18 +4,16 @@
 
 
 ## Team Name
-Name  
+Boneless Cocounuts  
 
 # Team Member
-Member 1 Github Link
-
-MEmber 2 Github Link
-
+Prathith [GitHub Link](https://github.com/prethith)
+Amulya [GitHub Link](https://github.com/AmulyaVinceChemparathy)
 ## Idea
-Breif Idea in two three sentences 
+Event Scheduling dashboard for CET clubs
 
 ## Features 
-1. 
+1. Add/remove events to schedule
 
 ## Link to product walkthrough
 [link to video](Link Here)
