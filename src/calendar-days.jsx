@@ -71,6 +71,7 @@ function CalendarDays(props) {
                     props.changeCurrentDay(day);
                     console.log("hellow")
                     setShowPopup(true);
+                    
                   }
 
                   }>
