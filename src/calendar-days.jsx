@@ -34,7 +34,7 @@ function CalendarDays(props) {
               <p>{day.number}</p>
             </div>
           )
-        })
+        })  
       }
     </div>
   )

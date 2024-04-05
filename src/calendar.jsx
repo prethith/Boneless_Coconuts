@@ -15,6 +15,12 @@ export default class Calendar extends Component {
     }
   }
 
+  changeCurrentMonth = (newMonth) => {
+    const currentDay = new Date(this.state.currentDay.getFullYear(), newMonth, 1);
+    this.setState({ currentDay });
+  };
+
+
   changeCurrentDay = (day) => {
     this.setState({ currentDay: new Date(day.year, day.month, day.number) });
   }
@@ -36,16 +42,15 @@ export default class Calendar extends Component {
         <div className="calendar-header">
           <div className="title">
 
-
-
           <details className="dropdown">
-            <summary className="m-1 btn text-2xl">{this.months[this.state.currentDay.getMonth()]} {this.state.currentDay.getFullYear()}</summary>
+            <summary className="m-1 btn text-xl">{this.months[this.state.currentDay.getMonth()]} {this.state.currentDay.getFullYear()}</summary>
             <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
-              {this.months.map((month) => {return (<button><li><a>{month}</a></li></button>);})}
+            {this.months.map((month, index) => (
+                  <li key={index} onClick={() => this.changeCurrentMonth(index)}>
+                    <a>{month}</a>
+                  </li>
+                ))}
             </ul>
-
-
-            
             </details>
             
           </div>
@@ -58,7 +63,6 @@ export default class Calendar extends Component {
             <span style={{fontSize:"20px"}}>→</span>
             </button>
 
-            
           </div>
         </div>
         <div className="calendar-body">
