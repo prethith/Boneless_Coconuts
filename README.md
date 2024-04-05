@@ -13,10 +13,10 @@ Prathith [GitHub Link](https://github.com/prethith)
 Amulya [Github Link](https://github.com/AmulyaVinceChemparathy)
 
 ## Idea
-Breif Idea in two three sentences 
+Event scheduling dashboard for clubs in CET
 
 ## Features 
-1. 
+1. View Calendar
 
 ## Link to product walkthrough
 [link to video](Link Here)
