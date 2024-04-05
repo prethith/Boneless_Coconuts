@@ -1,5 +1,5 @@
+import React, { useState } from 'react';
 import PopupComponent from './component';
-import { useState } from 'react';
 
 function CalendarDays(props) {
   const firstDayOfMonth = new Date(props.day.getFullYear(), props.day.getMonth(), 1);
@@ -9,8 +9,6 @@ function CalendarDays(props) {
   const [showPopup, setShowPopup] = useState(false);
   const [name, setName] = useState('');
   const [date, setDate] = useState('');
-
-  
 
   const openPopup = () => {
     setShowPopup(true);
@@ -26,6 +24,10 @@ function CalendarDays(props) {
 
   const handleDateChange = (event) => {
     setDate(event.target.value);
+  };
+
+  const handlePopupClose = () => {
+    closePopup();
   };
 
   const handleSubmit = (event) => {
@@ -60,28 +62,28 @@ function CalendarDays(props) {
   }
   
   return (
-<>  
-    {  showPopup && <PopupComponent/>}
-    <div className="table-content">
-      {
-        currentDays.map((day) => {
-          return (
-            <div className={"calendar-day" + (day.currentMonth ? " current" : "") + (day.selected ? " selected" : "")}
-                  onClick={() => {
-                    props.changeCurrentDay(day);
-                    console.log("hellow")
-                    setShowPopup(true);
-                    
-                  }
-
-                  }>
-              <p>{day.number}</p>
-            </div>
-          )
-        })  
-      }
-    </div>
-
+    <>  
+      <div>
+        <button onClick={openPopup}></button>
+        {showPopup && <PopupComponent onClose={handlePopupClose} />}
+      </div>
+      <div className="table-content">
+        {
+          currentDays.map((day) => {
+            return (
+              <div
+                className={"calendar-day" + (day.currentMonth ? " current" : "") + (day.selected ? " selected" : "")}
+                onClick={() => {
+                  props.changeCurrentDay(day);
+                  setShowPopup(true);
+                }}
+              >
+                <p>{day.number}</p>
+              </div>
+            )
+          })  
+        }
+      </div>
     </>
   )
 }
