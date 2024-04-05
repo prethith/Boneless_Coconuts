@@ -3,10 +3,10 @@
 ![Banner Github](https://github.com/csacet/Dsolve-2024/assets/90597530/365f4d52-fd34-4df5-948d-8e95745a653a)
 
 
-## Team Name
+# Team Name
 Boneless Coconuts  
 
-# Team Member
+## Team Members
 Prathith [GitHub Link](https://github.com/prethith)\
 Amulya [Github Link](https://github.com/AmulyaVinceChemparathy)
 
